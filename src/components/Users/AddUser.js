@@ -41,17 +41,17 @@ const AddUser = props => {
         <form onSubmit={addUserHandler}>
             <label htmlFor="username">Username</label>
             <input
-            type="text"
-            id="username"
-            value={userName}
-            onChange={(e) => setUserName(e.target.value)}
+              type="text"
+              id="username"
+              value={userName}
+              onChange={(e) => setUserName(e.target.value)}
             />
             <label htmlFor="age">Age (Years)</label>
             <input
-            type="number"
-            id="age"
-            value={age}
-            onChange={(e) => setAge(e.target.value)}
+              type="number"
+              id="age"
+              value={age}
+              onChange={(e) => setAge(e.target.value)}
             />
             <Button type="submit" name="Add User" />
         </form>
